@@ -10,7 +10,7 @@ struct Person {
 };
 
 int main() {
-    struct Person p1 = {"Dylan", "Fantauzzo", "September", 1998, 12, 4917622860944};
+    struct Person p1 = {"Chuck", "Norris", "September", 1969, 12, 4917622860944};
     printf("First Name: %s\n", p1.first_name);
     printf("Last Name: %s\n", p1.last_name);
     printf("DOB: %s, %d, %d\n", p1.dob_month, p1.dob_day, p1.dob_year);
